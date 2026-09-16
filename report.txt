@@ -1,0 +1,72 @@
+CODSOFT TASK 2 – EXPLORATORY DATA ANALYSIS REPORT
+
+1. Dataset Overview
+
+The dataset contains 20 sales records with 8 columns:
+Order_ID, Date, Product, Category, Quantity, Unit_Price, Sales, and Region.
+
+The dataset was analyzed using Python, Pandas, and Matplotlib.
+
+2. Data Quality
+
+* Total records: 20
+* Total columns: 8
+* Missing values: 0
+* The dataset contains no missing values.
+
+3. Sales Analysis
+
+* Total Sales: ₹9,08,600
+* Average Sales per Order: ₹45,430
+
+Product-wise sales:
+
+* Phone: ₹3,50,000
+* Laptop: ₹3,30,000
+* Monitor: ₹1,44,000
+* Mouse: ₹45,600
+* Keyboard: ₹39,000
+
+The sales data shows that Phones and Laptops contribute a large portion of the total sales.
+
+4. Regional Analysis
+
+Sales by region:
+
+* West: ₹3,35,000
+* East: ₹2,38,000
+* North: ₹1,95,600
+* South: ₹1,40,000
+
+The dataset shows differences in sales across the four regions.
+
+5. Category Analysis
+
+* Electronics: ₹8,24,000
+* Accessories: ₹84,600
+
+Electronics contributes substantially more sales than Accessories in this dataset.
+
+6. Outlier Analysis
+
+The Interquartile Range (IQR) method was used to identify unusual Sales values.
+
+The analysis helps identify sales records that fall outside the calculated lower and upper limits.
+
+7. Correlation Analysis
+
+Correlation was calculated between Quantity, Unit_Price, and Sales.
+
+This helps understand the relationships between the number of products sold, their unit price, and total sales.
+
+8. Visualizations
+
+Three visualizations were created:
+
+* Output 1 – Total Sales by Product
+* Output 2 – Total Sales by Region
+* Output 3 – Distribution of Sales
+
+9. Conclusion
+
+The exploratory data analysis provides an overview of sales performance across products, regions, and categories. The visualizations and summary statistics help identify sales patterns and unusual values in the dataset.
